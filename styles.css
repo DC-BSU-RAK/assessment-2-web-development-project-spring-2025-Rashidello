@@ -1,11 +1,48 @@
 #bgvideo{
-  position: absolute;
+  position:fixed;
   top:0;
   left:0;
   width: 100vw;
   height: 100vh;
   object-fit: fill;
-  
+  z-index: -1;
 }
+body{
+  margin: 0%;
+
+}
+.navbar{
+  background-color: rgba(0, 0, 0, 0.799);
+  display:flex;
+  justify-content: center;
+  padding: 0 20px;
+  height: 60px;
+  gap:50px;
+}
+.navbar ul{
+  list-style: none;
+  text-align: center;
+  display: flex;
+  gap: 40px;
+  padding: 0%;
+  margin: 0%;
+  margin-top: 1%;
+}
+.logo img{
+  width: 50px;
+}
+.navbar a{
+  color: #ffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.navbar a{
+  transition: all 0.4s ease  0s;
+}
+.navbar a:hover{
+  color: rgb(127, 232, 255);
+}
+
 
 
