@@ -9,7 +9,6 @@
 }
 body{
   margin: 0%;
-
 }
 .navbar{
   background-color: rgba(0, 0, 0, 0.799);
@@ -43,6 +42,3 @@ body{
 .navbar a:hover{
   color: rgb(127, 232, 255);
 }
-
-
-
