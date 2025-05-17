@@ -1,0 +1,19 @@
+.image-reviews{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding: 40px;
+}
+
+.hovering{
+    width:150px;
+    height:auto;
+    transition: transform 0.3s ease, filter 0.3 ease;
+    cursor:pointer;
+}
+
+.hovering:hover{
+    transform:scale(1.1);
+    filter: drop-shadow(0 0 10px purple);
+
+}

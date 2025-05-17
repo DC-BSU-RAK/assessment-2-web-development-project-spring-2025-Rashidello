@@ -56,7 +56,6 @@
     height: 100%;
     color: #fff;
 }
-
 #controls {
     margin: -180px 0 0 0;
     width: 100%;
@@ -69,11 +68,13 @@
     display: none;
     width: 50px;
     height: 50px;
-    opacity: 1;
+    opacity: 4;
+    filter: drop-shadow(0 0 8px white);
 }
 #controls label:hover {
-    opacity: 5;
+    opacity: 100;
 }
+
 #slide1:checked ~ #controls label:nth-child(2),
 #slide2:checked ~ #controls label:nth-child(3),
 #slide3:checked ~ #controls label:nth-child(4),

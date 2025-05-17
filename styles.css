@@ -61,6 +61,21 @@ body{
 .character_box p  {
   color: whitesmoke;
 }
+.character_box li{
+  color: whitesmoke;
+  list-style: none;
+}
+.character_box h2{
+  color: whitesmoke;
+  
+}
+.character_img {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #c015ff;
+  
+}
 .specialwords{
   color:#b90bb3d4;
 }
