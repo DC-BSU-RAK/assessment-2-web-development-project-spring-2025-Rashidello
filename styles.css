@@ -11,7 +11,7 @@ body{
   margin: 0%;
 }
 .navbar{
-  background-color: rgba(0, 0, 0, 0.799);
+  background-color: rgba(9, 0, 14, 0.799);
   display:flex;
   justify-content: center;
   padding: 0 20px;
@@ -41,4 +41,38 @@ body{
 }
 .navbar a:hover{
   color: rgb(127, 232, 255);
+}
+
+.logo2{
+  width: auto;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.character_box{
+  max-width: 800px;
+  margin: 0 auto;
+  border: 2px solid #bd06b7d4;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.764);
+  text-align: center;
+  margin-top: 50px;
+}
+.character_box p  {
+  color: whitesmoke;
+}
+.specialwords{
+  color:#b90bb3d4;
+}
+.specialwords:hover{
+  color: rgb(127, 232, 255);
+}
+.specialwords
+{
+  transition: all 0.4s ease  0s;
+}
+.world{
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
 }
